@@ -1,0 +1,12 @@
+{
+  "news": [],
+  "categories": [],
+  "users": [
+    {
+      "id": "d371",
+      "name": "Your Name",
+      "email": "test@riwi.io",
+      "password": "riwi2024"
+    }
+  ]
+}
