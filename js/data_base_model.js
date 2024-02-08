@@ -11,7 +11,7 @@ class DataModelBuilder {
   async getAllData () {
     const fetchURL = this.endpoint;
     const request = await fetch(fetchURL); 
-    const data = await request.json()
+    const data = await request.json();
     return data
   }
 
@@ -74,10 +74,12 @@ class NewsDataMoldel extends DataModelBuilder{
   constructor () {
     super(NEWS_ENDPOINT)
   }
-  async post (userTitle, userContent, userCategoryID, userAutorID) {
+  async post (userTitle, userContent, userImageUrl, userCategoryID, userAutorID) {
     const userSchema = {
       title: userTitle,
       content: userContent,
+      image: userImageUrl,
+      creation_date: "21/10/2023",
       category_id: userCategoryID,
       autor_id: userAutorID
     }

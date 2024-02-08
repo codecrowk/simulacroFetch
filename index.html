@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/libs/bootstrap.min.css" />
     <title>Riwi Noticias</title>
-    <script src="./js/data_base_model.js" defer></script>
+    <script type="module" src="./js/news_panel.js" defer></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -52,9 +52,7 @@
     </header>
 
     <!-- LIST NOTICES -->
-    <main
-      class="container my-4 d-flex flex-wrap justify-content-center cards-container"
-    >
+    <main id="news_container" class="container my-4 d-flex flex-wrap justify-content-center cards-container">
       <!-- CARD EXAMPLE -->
       <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
@@ -212,6 +210,6 @@
       </div>
     </main>
 
-    <script src="js/libs/bootstrap.bundle.min.js"></script>
+    <script src="./js/libs/bootstrap.bundle.min.js"></script>
   </body>
 </html>

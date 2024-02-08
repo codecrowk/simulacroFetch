@@ -6,3 +6,6 @@ Creation of data base builder class
 
 ## SR-2
 Creation of every endpoint class
+
+## SR-3
+Index news controler and views
