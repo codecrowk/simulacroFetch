@@ -1,6 +1,58 @@
 {
-  "news": [],
-  "categories": [],
+  "news": [
+    {
+      "id": "dc35",
+      "title": "Two girls start in Json Acdemy",
+      "content": "This storie is about a family how want a better future",
+      "category_id": "pa23",
+      "autor_id": "d371"
+    },
+    {
+      "id": "1e6d",
+      "title": "Two girls start in Json Acdemy",
+      "content": "This storie is about a family how want a better future",
+      "category_id": "pa23",
+      "autor_id": "d371"
+    },
+    {
+      "id": "7116",
+      "title": "Two girls start in Json Acdemy",
+      "content": "This storie is about a family how want a better future",
+      "category_id": "pa23",
+      "autor_id": "d371"
+    },
+    {
+      "id": "0aad",
+      "title": "Two girls start in Json Acdemy",
+      "content": "This storie is about a family how want a better future",
+      "category_id": "pa23",
+      "autor_id": "d371"
+    },
+    {
+      "id": "09ed",
+      "title": "Two girls start in Json Acdemy",
+      "content": "This storie is about a family how want a better future",
+      "category_id": "pa23",
+      "autor_id": "d371"
+    }
+  ],
+  "categories": [
+    {
+      "id": "f761",
+      "title": "Sport",
+      "description": "Footbal and others"
+    },
+    {
+      "id": "67a5",
+      "title": "Sport",
+      "description": "Footbal and others"
+    },
+    {
+      "id": "27e9",
+      "title": "Sport",
+      "description": "Footbal and others"
+    }
+  ],
   "users": [
     {
       "id": "d371",
@@ -9,19 +61,25 @@
       "password": "riwi2024"
     },
     {
-      "id": "5cbe",
+      "id": "2012",
       "name": "jose Alvarez",
       "email": "jose123@gmail.com",
       "password": "123456789"
     },
     {
-      "id": "7f1d",
+      "id": "b5ac",
       "name": "jose Alvarez",
       "email": "jose123@gmail.com",
       "password": "123456789"
     },
     {
-      "id": "a34c",
+      "id": "e25a",
+      "name": "jose Alvarez",
+      "email": "jose123@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "2d77",
       "name": "jose Alvarez",
       "email": "jose123@gmail.com",
       "password": "123456789"
