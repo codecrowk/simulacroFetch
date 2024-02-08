@@ -85,8 +85,5 @@ class NewsDataMoldel extends DataModelBuilder{
     return response
   }
 }
-// const myData = new NewsDataMoldel();
-// console.log(myData.post("Two girls start in Json Acdemy", "This storie is about a family how want a better future", "pa23", "d371"))
 
-const myData = new CategoryDataMoldel();
-console.log(myData.post("Sport", "Footbal and others"))
+export {UserDataMoldel, CategoryDataMoldel, NewsDataMoldel}
