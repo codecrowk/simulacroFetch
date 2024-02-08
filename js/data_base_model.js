@@ -40,5 +40,20 @@ class DataModelBuilder {
   }
 }
 
-const myData = new DataModelBuilder(USERS_ENDPOINT);
-console.log(myData.getAllData())
+class UserDataMoldel extends DataModelBuilder{
+  constructor () {
+    super(USERS_ENDPOINT)
+  }
+
+  async post (userName, userEmail, userPassword) {
+    const userSchema = {
+      name: userName,
+      email: userEmail,
+      password: userPassword
+    }
+    const response = await super.post(userSchema);
+    return response
+  }
+}
+const myData = new UserDataMoldel();
+console.log(myData.post("jose Alvarez", "jose123@gmail.com", "123456789"))

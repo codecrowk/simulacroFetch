@@ -7,6 +7,24 @@
       "name": "Your Name",
       "email": "test@riwi.io",
       "password": "riwi2024"
+    },
+    {
+      "id": "5cbe",
+      "name": "jose Alvarez",
+      "email": "jose123@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "7f1d",
+      "name": "jose Alvarez",
+      "email": "jose123@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "a34c",
+      "name": "jose Alvarez",
+      "email": "jose123@gmail.com",
+      "password": "123456789"
     }
   ]
 }

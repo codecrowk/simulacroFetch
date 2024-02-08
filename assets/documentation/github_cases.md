@@ -3,3 +3,6 @@ This file is going to help you what means each github case, I will use SR abravi
 
 ## SR-1
 Creation of data base builder class
+
+## SR-2
+Creation of every endpoint class
