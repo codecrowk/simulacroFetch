@@ -1,5 +1,4 @@
 import { NewsDataMoldel } from "./data_base_model.js";
-import { DateModel } from "./utilities.js";
 const NewsData = new NewsDataMoldel()
 
 /*---------- NEWS CONTROLER ----------*/

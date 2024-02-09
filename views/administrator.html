@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/libs/bootstrap.min.css" />
     <title>Login</title>
+    <script type="module" src="../js/new_interface.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -109,7 +110,7 @@
                 <th>Actions</th>
               </tr>
             </thead>
-
+            <!-- CATEGORIES -->
             <tbody id="categorias-tbody">
               <tr>
                 <td>1</td>
@@ -175,7 +176,7 @@
               </tr>
             </thead>
 
-            <tbody id="categorias-tbody">
+            <tbody id="news-tbody">
               <tr>
                 <td>
                   <img
@@ -248,8 +249,7 @@
       id="modal-category"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <form class="modal-content">
           <div class="modal-header">
@@ -264,33 +264,16 @@
           <div class="modal-body">
             <div class="mb-3">
               <label for="nameCategory" class="form-label">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="nameCategory"
-                required
-              />
+              <input type="text" class="form-control" id="nameCategory" required/>
             </div>
 
             <div class="mb-3">
-              <label for="descriptionCategory" class="form-label"
-                >Description</label
-              >
-              <textarea
-                class="form-control"
-                id="descriptionCategory"
-                rows="3"
-              ></textarea>
+              <label for="descriptionCategory" class="form-label">Description</label>
+              <textarea class="form-control" id="descriptionCategory" rows="3"></textarea>
             </div>
           </div>
           <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Close </button>
             <button type="submit" class="btn btn-primary">Save changes</button>
           </div>
         </form>
@@ -303,28 +286,17 @@
       id="modal-notice"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
-        <form class="modal-content">
+        <form id="news_form" class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalLabel">Notice</h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <div class="mb-3">
               <label for="nameNotice" class="form-label">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="nameNotice"
-                required
-              />
+              <input type="text" class="form-control" id="nameNotice" required/>
             </div>
 
             <div class="mb-3">
@@ -334,35 +306,19 @@
 
             <div class="mb-3">
               <label for="idCategory" class="form-label">Category</label>
-              <select
-                class="form-select"
-                aria-label="Selected Category"
-                id="idCategory"
-                required
-              >
+              <select class="form-select" aria-label="Selected Category" id="idCategory" required>
                 <option selected value="">Select a category</option>
+                <option value="id21">Animals</option>
               </select>
             </div>
 
             <div class="mb-3">
-              <label for="contentNotice" class="form-label"
-                >Notice description</label
-              >
-              <textarea
-                class="form-control"
-                id="contentNotice"
-                rows="3"
-              ></textarea>
+              <label for="contentNotice" class="form-label">Notice description</label>
+              <textarea class="form-control" id="contentNotice" rows="3"></textarea>
             </div>
           </div>
           <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Close </button>
             <button type="submit" class="btn btn-primary">Save changes</button>
           </div>
         </form>

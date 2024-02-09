@@ -107,6 +107,42 @@
       "creation_date": "09/02/2024",
       "category_id": "231A",
       "autor_id": "2Afe"
+    },
+    {
+      "id": "4415",
+      "title": "jose",
+      "content": "carmen",
+      "image": "id21",
+      "creation_date": "09/02/2024",
+      "category_id": "dasd",
+      "autor_id": "21fr"
+    },
+    {
+      "id": "02aa",
+      "title": "jose",
+      "content": "carmen",
+      "image": "id21",
+      "creation_date": "09/02/2024",
+      "category_id": "dasd",
+      "autor_id": "21fr"
+    },
+    {
+      "id": "84c0",
+      "title": "Andromeda",
+      "content": "id21",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.powertrafic.fr%2Fwp-content%2Fuploads%2F2023%2F04%2Fimage-ia-exemple-768x384.png&f=1&nofb=1&ipt=9f15245620c1587b94b29dde085225f23de85aa71c422cec4d0653a8c5baeae1&ipo=images",
+      "creation_date": "09/02/2024",
+      "category_id": "dasd",
+      "autor_id": "21fr"
+    },
+    {
+      "id": "bfc9",
+      "title": "Andromeda",
+      "content": "id21",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.powertrafic.fr%2Fwp-content%2Fuploads%2F2023%2F04%2Fimage-ia-exemple-768x384.png&f=1&nofb=1&ipt=9f15245620c1587b94b29dde085225f23de85aa71c422cec4d0653a8c5baeae1&ipo=images",
+      "creation_date": "09/02/2024",
+      "category_id": "dasd",
+      "autor_id": "21fr"
     }
   ],
   "categories": [

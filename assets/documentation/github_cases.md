@@ -9,3 +9,6 @@ Creation of every endpoint class
 
 ## SR-3
 Index news controler and views
+
+## SR-4 
+Notices interface, create new and update
