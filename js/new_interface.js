@@ -18,20 +18,21 @@ const AdministratorNewsControler = {
   },
 
   async createNew () {
-    const formData = Object.values(this.getFormValues()) 
-    const req = await NewsModel.post(...formData, "21fr")
+    const {nameNotice, urlImage, idCategory, contentNotice} = this.getFormValues()
+    const req = await NewsModel.post(nameNotice, contentNotice, urlImage, idCategory, "dfer")
     return req
   }, 
 
   getFormValues () {
     const formHTML = AdministratorNewsViews.newsFormHTML;
-    const {nameNotice, urlImage, idCategory, contentNotice} = formHTML;
-    const formValues = {
-      nameNotice: nameNotice.value,
-      idCategory: idCategory.value,
-      urlImage: urlImage.value,
-      contentNotice: contentNotice.value,
-    };
+    const formValues = {};
+    for (const item of formHTML.elements) {
+      // Check if valid key
+      if (item.id == "") continue;
+      const elementKey = item.id;
+      const elementValue = item.value;
+      formValues[elementKey] = elementValue;
+    }
     return formValues
   }
 }
