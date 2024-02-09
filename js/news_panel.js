@@ -88,8 +88,3 @@ const newData = {
 }
 // NewsData.post(newData.title, newData.description, newData.image, newData.category, newData.creator)
 NewsControler.init()
-const currentdate = new DateModel;
-// debugger
-const date = new Date;
-console.log(date.getDate())
-console.log(currentdate.currentDate())

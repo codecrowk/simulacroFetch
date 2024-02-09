@@ -1,7 +1,9 @@
+import { DateModel } from "./utilities.js";
 const DATABASE_ROOT_URL = "http://localhost:3000";
 const USERS_ENDPOINT = `${DATABASE_ROOT_URL}/users`;
-const CATEGORIES_ENDPOINT = `${DATABASE_ROOT_URL}/categories`  ;
+const CATEGORIES_ENDPOINT = `${DATABASE_ROOT_URL}/categories`;
 const NEWS_ENDPOINT = `${DATABASE_ROOT_URL}/news`;
+const DATE_MODEL = new DateModel();
 
 class DataModelBuilder {
   constructor (userEndpoint) {
@@ -79,7 +81,7 @@ class NewsDataMoldel extends DataModelBuilder{
       title: userTitle,
       content: userContent,
       image: userImageUrl,
-      creation_date: "21/10/2023",
+      creation_date: DATE_MODEL.currentDate(), 
       category_id: userCategoryID,
       autor_id: userAutorID
     }
