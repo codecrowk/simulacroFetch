@@ -12,3 +12,6 @@ Index news controler and views
 
 ## SR-4 
 Notices interface, create new and update
+
+## SR-5
+Login html
